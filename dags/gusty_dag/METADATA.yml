@@ -1,0 +1,5 @@
+description: "A Gusty DAG"
+schedule_interval: null
+default_args:
+    depends_on_past: false
+    start_date: !days_ago 1
