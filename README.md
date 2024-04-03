@@ -4,6 +4,7 @@ Overview
 Sandbox repo to test using hook_params to pass query tags to Snowflake for all BaseSQLOperator-related Operators.
 
 To configure the Snowflake connection, you can rename `.example_env` to `.env` and provide your credentials in the `AIRFLOW_CONN_SNOWFLAKE_ADMIN` environment variable.
+
 `AIRFLOW__LOGGING__LOGGING_LEVEL` is set to debug mode. This allows to see SESSION_PARAMETERS printed to the task logs.
 
 The `test_hook_params.py` file contains a Dag to test all the BaseSQLOperator-related Operators.

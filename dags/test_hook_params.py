@@ -2,11 +2,11 @@ from airflow.decorators import dag
 from airflow.utils.dates import days_ago
 
 from include.custom_operators.custom import (
-    SQLExecuteQueryOperator,
-    SQLColumnCheckOperator,
-    SQLTableCheckOperator,
-    SQLCheckOperator,
     SnowflakeOperator,
+    SQLCheckOperator,
+    SQLColumnCheckOperator,
+    SQLExecuteQueryOperator,
+    SQLTableCheckOperator,
 )
 from include.utils import hook_params
 
