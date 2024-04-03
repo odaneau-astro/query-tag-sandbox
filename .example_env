@@ -1,0 +1,2 @@
+AIRFLOW_CONN_SNOWFLAKE_ADMIN='{"conn_type":"snowflake","login":"username","password":"password","schema":"schema","extra":{"account":"account_id","database":"database","region":"region","warehouse":"warehouse"}}'
+AIRFLOW__LOGGING__LOGGING_LEVEL=DEBUG

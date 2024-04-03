@@ -1,5 +1,4 @@
 operator: include.custom_operators.custom.SQLExecuteQueryOperator
-sql: SELECT 'gusty is causing problems';
-parameters: !constant hook_params
+sql: SELECT '1';
 hook_params: !constant hook_params
 conn_id: snowflake_admin
